@@ -57,7 +57,7 @@ export const Users = ({ isRegistered }: IUsers) => {
 
   return (
     // Users section
-    <section className={s.users}>
+    <section className={s.users} id="users">
       <div className="container">
         {/* Section title */}
         <h2 className={classNames(s.title, "headingText")}>

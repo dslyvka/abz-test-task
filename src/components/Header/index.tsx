@@ -18,8 +18,18 @@ export const Header = () => {
 
         {/* Header buttons */}
         <div>
-          <button className={classNames("btn", s.usersBtn)}>Users</button>
-          <button className="btn">Sign up</button>
+          <button className={classNames("btn", s.usersBtn, "forAnchor")}>
+            <a href="#users" className="anchor">
+              .
+            </a>
+            Users
+          </button>
+          <button className={classNames("btn", "forAnchor")}>
+            <a href="#signup" className="anchor">
+              .
+            </a>
+            Sign up
+          </button>
         </div>
         {/* Header buttons */}
       </header>

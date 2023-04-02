@@ -17,7 +17,7 @@ export const Hero = () => {
         {/* Hero title */}
 
         {/* Hero main text */}
-        <p className={"regularText " + s.text}>
+        <p className={classNames("regularText", s.text)}>
           What defines a good front-end developer is one that has skilled
           knowledge of HTML, CSS, JS with a vast understanding of User design
           thinking as they'll be building web interfaces with accessibility in
@@ -27,7 +27,12 @@ export const Hero = () => {
         {/* Hero main text */}
 
         {/* Hero sign up button */}
-        <button className={classNames("btn", s.heroBtn)}>Sign up</button>
+        <button className={classNames("btn", s.heroBtn, "forAnchor")}>
+          <a href="#signup" className="anchor">
+            .
+          </a>
+          Sign up
+        </button>
         {/* Hero sign up button */}
       </div>
     </section>

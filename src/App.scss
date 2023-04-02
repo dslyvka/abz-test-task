@@ -155,3 +155,35 @@
     /* Other */
   }
 }
+
+.forAnchor {
+  /* Positioning */
+  position: relative;
+
+  /* Display & Box Model */
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.anchor {
+  /* Positioning */
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  /* Display & Box Model */
+  display: block;
+  width: 100%;
+  height: 100%;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+  opacity: 0;
+}

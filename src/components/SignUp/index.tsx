@@ -17,7 +17,7 @@ interface ISignUp {
 
 export const SignUp = ({ setIsRegistered, isRegistered }: ISignUp) => {
   return (
-    <section>
+    <section id="signup">
       <div className={classNames("container", s.signUpSection)}>
         {/* Title render logic */}
         <h2 className={classNames("headingText", s.title)}>
