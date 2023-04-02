@@ -61,6 +61,7 @@ export const User = (props: IUser) => {
         src={photo}
         alt="user"
         width={70}
+        height={70}
         className={s.img}
         // setting default user image, when we got an error from the back-end
         onError={({ currentTarget }) => {
