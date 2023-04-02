@@ -1,7 +1,7 @@
 {
   "files": {
     "main.css": "/abz-test-task/static/css/main.825013a3.css",
-    "main.js": "/abz-test-task/static/js/main.2d198be9.js",
+    "main.js": "/abz-test-task/static/js/main.c182b93e.js",
     "static/media/hero-1024.jpg": "/abz-test-task/static/media/hero-1024.f837398190d879c288f4.jpg",
     "static/media/hero-1170.jpg": "/abz-test-task/static/media/hero-1170.45f9d8d2077500ffe622.jpg",
     "static/media/hero-768.jpg": "/abz-test-task/static/media/hero-768.3a53d27d3de46439d1dd.jpg",
@@ -10,6 +10,6 @@
   },
   "entrypoints": [
     "static/css/main.825013a3.css",
-    "static/js/main.2d198be9.js"
+    "static/js/main.c182b93e.js"
   ]
 }
