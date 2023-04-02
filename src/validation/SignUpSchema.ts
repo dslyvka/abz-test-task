@@ -23,6 +23,8 @@ export const SignUpSchema = Yup.object().shape({
     .matches(emailRegExp, "Enter valid email according to RFC 2822")
     .required("Required"),
   phone: Yup.string()
+    .min(12, "Too Short!")
+    .max(13, "Too Long!")
     .matches(
       phoneNumberRegExp,
       "Number should start with code of Ukraine +380 where + is optional"

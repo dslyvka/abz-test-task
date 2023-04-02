@@ -37,6 +37,7 @@ export const InputText = (props: IInput) => {
         className={classNames(s.input, "regularText", error && s.onErrorInput)}
         onChange={onChange}
         onBlur={onBlur}
+        autoComplete="off"
       />
       {/* Input type text */}
 
