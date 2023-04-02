@@ -1,12 +1,17 @@
+// React
+import React, { Suspense } from "react";
+
 // Libraries
 import classNames from "classnames";
 
 // Components
 import { Form } from "components/Form";
-import { UserRegistered } from "components/UserRegistered";
 
 // Styles
 import s from "./SignUp.module.scss";
+
+// Lazy loaded components
+const UserRegistered = React.lazy(() => import("components/UserRegistered"));
 
 // Local interface
 interface ISignUp {
@@ -29,7 +34,11 @@ export const SignUp = ({ setIsRegistered, isRegistered }: ISignUp) => {
 
         {/* Depending on the isRegistered status, we render the required component  */}
         {!isRegistered && <Form setIsRegistered={setIsRegistered} />}
-        {isRegistered && <UserRegistered />}
+        {isRegistered && (
+          <Suspense fallback={<div>Загрузка...</div>}>
+            <UserRegistered />
+          </Suspense>
+        )}
         {/* Depending on the isRegistered status, we render the required component  */}
       </div>
     </section>

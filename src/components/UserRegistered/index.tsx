@@ -5,10 +5,12 @@ import { UserRegisteredSvg } from "./UserRegisteredSvg";
 import s from "./UserRegistered.module.scss";
 
 // User registered component
-export const UserRegistered = () => {
+const UserRegistered = () => {
   return (
     <div className={s.container}>
       <UserRegisteredSvg />
     </div>
   );
 };
+
+export default UserRegistered;
