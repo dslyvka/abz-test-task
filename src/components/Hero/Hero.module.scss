@@ -1,0 +1,137 @@
+.hero {
+  /* Positioning */
+
+  /* Display & Box Model */
+  padding-top: 40px;
+  padding-bottom: 71px;
+  margin: 0 auto;
+
+  background-image: url("../../images/hero/hero-360.jpg");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    padding-top: 89px;
+    padding-bottom: 88px;
+
+    background-image: url("../../images/hero/hero-768.jpg");
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    padding-top: 164px;
+    padding-bottom: 163px;
+
+    background-image: url("../../images/hero/hero-1024.jpg");
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 2560px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 1170px;
+
+    background-image: url("../../images/hero/hero-1170.jpg");
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.title {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 328px;
+  margin: 0 auto;
+  margin-bottom: 21px;
+
+  /* Color */
+  color: #ffffff;
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 380px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.text {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 328px;
+  margin: 0 auto 32px;
+
+  /* Color */
+  color: #ffffff;
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 380px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.heroBtn {
+  /* Positioning */
+
+  /* Display & Box Model */
+  display: block;
+  margin: 0 auto;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}

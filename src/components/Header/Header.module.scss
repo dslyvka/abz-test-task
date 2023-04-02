@@ -1,0 +1,80 @@
+.header {
+  /* Positioning */
+
+  /* Display & Box Model */
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 13px 16px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    padding: 13px 32px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    padding: 13px 60px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 2560px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    padding: 13px 0;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.logo {
+  /* Positioning */
+
+  /* Display & Box Model */
+  padding-top: 4px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.usersBtn {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-right: 10px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}

@@ -1,0 +1,114 @@
+.users {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin: 140px 0;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.title {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 328px;
+  margin: 0 auto 50px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 704px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.list {
+  /* Positioning */
+
+  /* Display & Box Model */
+  padding: 0 16px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    display: grid;
+    grid-template-columns: repeat(2, 344px);
+    grid-column-gap: 16px;
+    grid-row-gap: 16px;
+    padding: 0 32px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    grid-template-columns: repeat(3, 282px);
+    grid-column-gap: 29px;
+    grid-row-gap: 29px;
+    padding: 0 60px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 2560px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    grid-template-columns: repeat(3, 370px);
+    padding: 0;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.users .showMore {
+  /* Positioning */
+
+  /* Display & Box Model */
+  display: block;
+  width: 120px;
+  margin: 50px auto 0;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}

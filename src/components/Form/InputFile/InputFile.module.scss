@@ -1,0 +1,136 @@
+@import "../../../styles/variables.scss";
+
+.customInputFile {
+  /* Positioning */
+  position: relative;
+
+  /* Display & Box Model */
+  width: 328px;
+  height: 54px;
+  margin-bottom: 50px;
+  border: 1px solid #d0cfcf;
+  border-radius: 4px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 380px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.input {
+  /* Positioning */
+  position: absolute;
+  z-index: 1;
+
+  /* Display & Box Model */
+  display: block;
+  width: 328px;
+  height: 54px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+  opacity: 0;
+  cursor: pointer;
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 380px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.textContainer {
+  /* Positioning */
+  position: relative;
+
+  /* Display & Box Model */
+  width: 83px;
+  height: 54px;
+  margin: -1px;
+  border: 1px solid $text-color;
+  border-radius: 4px 0px 0px 4px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+  cursor: pointer;
+}
+
+.text {
+  /* Positioning */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  /* Display & Box Model */
+  color: $text-color;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.fileName {
+  /* Positioning */
+  position: absolute;
+  top: 50%;
+  left: 98px;
+  transform: translateY(-50%);
+
+  /* Display & Box Model */
+
+  /* Color */
+  color: #7e7e7e;
+
+  /* Text */
+
+  /* Other */
+}
+
+.onErrorHelper {
+  /* Positioning */
+  position: absolute;
+  bottom: -18.5px;
+  left: 10.5px;
+
+  /* Display & Box Model */
+
+  /* Color */
+  color: #cb3d40;
+
+  /* Text */
+  font-size: 12px;
+  line-height: 1.17;
+
+  /* Other */
+}

@@ -1,0 +1,42 @@
+@import "../../styles/variables.scss";
+
+.signUpSection {
+  /* Positioning */
+
+  /* Display & Box Model */
+  padding-bottom: 100px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.title {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 328px;
+  margin: 0 auto 50px;
+
+  /* Color */
+  color: $text-color;
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 704px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}

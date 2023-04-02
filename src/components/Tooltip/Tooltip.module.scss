@@ -1,0 +1,23 @@
+@import "../../styles/variables.scss";
+
+.tooltipText {
+  /* Positioning */
+  position: absolute;
+  z-index: 1;
+  top: 140%;
+
+  /* Display & Box Model */
+  display: block;
+  max-width: 90%;
+  padding: 3px 16px;
+  border-radius: 4px;
+
+  /* Color */
+  color: #ffffff;
+  background-color: $text-color;
+
+  /* Text */
+
+  /* Other */
+  overflow-wrap: break-word;
+}

@@ -1,0 +1,141 @@
+@import "../../../styles/variables.scss";
+
+.item {
+  /* Positioning */
+
+  /* Display & Box Model */
+  padding: 20px;
+  padding-top: 20.5px;
+  border-radius: 10px;
+
+  /* Color */
+  background-color: #ffffff;
+
+  /* Text */
+
+  /* Other */
+}
+
+.item:not(:last-child) {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-bottom: 20px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    margin-bottom: 0;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
+
+.img {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin: 0 auto 20px;
+  border-radius: 50%;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.tooltipContainer {
+  /* Positioning */
+  position: relative;
+
+  /* Display & Box Model */
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.tooltipContainer .name {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-bottom: 20px;
+
+  /* Color */
+  color: $text-color;
+
+  /* Text */
+
+  /* Other */
+}
+
+.tooltip {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 288px;
+  margin: 0 auto;
+
+  /* Color */
+  color: $text-color;
+
+  /* Text */
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 304px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 242px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 2560px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 330px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}

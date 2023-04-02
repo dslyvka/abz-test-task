@@ -1,0 +1,140 @@
+@import "../../../styles/variables.scss";
+
+.positionsContainer {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-bottom: 47px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.positionsContainer .title {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-bottom: 11px;
+
+  /* Color */
+  color: $text-color;
+
+  /* Text */
+  text-align: left;
+
+  /* Other */
+}
+
+.item:not(:last-child) {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-bottom: 7px;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.inputContainer {
+  /* Positioning */
+  position: relative;
+
+  /* Display & Box Model */
+  display: flex;
+  align-items: center;
+
+  /* Color */
+  color: $text-color;
+
+  /* Text */
+
+  /* Other */
+}
+
+.input {
+  /* Positioning */
+
+  /* Display & Box Model */
+  margin-right: 17px;
+
+  /* Color */
+  accent-color: $secondary-color;
+
+  /* Text */
+
+  /* Other */
+  opacity: 0;
+}
+
+.customButton {
+  /* Positioning */
+  position: absolute;
+  top: 50%;
+  left: 0px;
+  transform: translateY(-50%);
+
+  /* Display & Box Model */
+  width: 20px;
+  height: 20px;
+  border: 1px solid #d0cfcf;
+  border-radius: 50%;
+
+  /* Color */
+  background-color: $background-color;
+
+  /* Text */
+
+  /* Other */
+}
+
+.customButtonFilled {
+  /* Positioning */
+  position: absolute;
+  top: 50%;
+  left: 4px;
+  transform: translateY(-50%);
+
+  /* Display & Box Model */
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+
+  /* Color */
+  background-color: transparent;
+
+  /* Text */
+
+  /* Other */
+}
+
+.input:checked + .customButton {
+  /* Positioning */
+
+  /* Display & Box Model */
+  border-color: $secondary-color;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}
+
+.input:checked ~ .customButtonFilled {
+  /* Positioning */
+
+  /* Display & Box Model */
+  background-color: $secondary-color;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+}

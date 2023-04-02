@@ -1,0 +1,157 @@
+@import "./styles/variables.scss";
+
+// GENERAL CSS ORDER RULES
+/* Positioning */
+
+/* Display & Box Model */
+
+/* Color */
+
+/* Text */
+
+/* Other */
+
+// General titles styles
+.headingText {
+  /* Positioning */
+
+  /* Display & Box Model */
+
+  /* Color */
+
+  /* Text */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 40px;
+  line-height: 1;
+  text-align: center;
+
+  /* Other */
+}
+
+// General paragraphs styles
+.regularText {
+  /* Positioning */
+
+  /* Display & Box Model */
+
+  /* Color */
+
+  /* Text */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  /* Other */
+}
+
+// General button styles
+.btn {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 100px;
+  height: 34px;
+  border-radius: 80px;
+
+  /* Color */
+  color: $text-color;
+  background-color: $primary-color;
+
+  /* Text */
+  font-family: "Nunito";
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.62;
+  text-align: center;
+
+  /* Other */
+  cursor: pointer;
+
+  &:hover {
+    /* Positioning */
+
+    /* Display & Box Model */
+
+    /* Color */
+    background-color: #ffe302;
+
+    /* Text */
+
+    /* Other */
+  }
+
+  &:disabled {
+    /* Positioning */
+
+    /* Display & Box Model */
+
+    /* Color */
+    color: white;
+    background: #b4b4b4;
+
+    /* Text */
+
+    /* Other */
+    cursor: not-allowed;
+  }
+}
+
+// General container styles
+.container {
+  /* Positioning */
+
+  /* Display & Box Model */
+  width: 360px;
+  margin: 0 auto;
+
+  /* Color */
+
+  /* Text */
+
+  /* Other */
+
+  @media screen and (min-width: 768px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 768px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 1024px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 1024px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+
+  @media screen and (min-width: 2560px) {
+    /* Positioning */
+
+    /* Display & Box Model */
+    width: 1170px;
+
+    /* Color */
+
+    /* Text */
+
+    /* Other */
+  }
+}
