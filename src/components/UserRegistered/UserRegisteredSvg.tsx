@@ -1,5 +1,5 @@
-// User registred svg component
-export const UserRegistredSvg = () => {
+// User registered svg component
+export const UserRegisteredSvg = () => {
   return (
     <svg
       width="328"

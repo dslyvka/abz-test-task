@@ -23,11 +23,11 @@ const URL =
 
 // Local interface
 interface IUsers {
-  isRegistred: boolean;
+  isRegistered: boolean;
 }
 
 // Users component
-export const Users = ({ isRegistred }: IUsers) => {
+export const Users = ({ isRegistered }: IUsers) => {
   // Array of users
   const [users, setUsers] = useState<IUser[]>([]);
   // Next page of users url
@@ -41,7 +41,7 @@ export const Users = ({ isRegistred }: IUsers) => {
       setUsers([...data.users]);
       setNextUrl(data.links.next_url);
     });
-  }, [isRegistred]);
+  }, [isRegistered]);
 
   // Request to next page of users
   const onClick: React.MouseEventHandler<HTMLButtonElement> = () => {

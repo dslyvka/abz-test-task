@@ -22,11 +22,11 @@ import classNames from "classnames";
 
 // Local interface
 interface IForm {
-  // Needed to display that user registred
-  setIsRegistred: (isRegistred: boolean) => void;
+  // Needed to display that user registered
+  setIsRegistered: (isRegistered: boolean) => void;
 }
 
-export const Form = ({ setIsRegistred }: IForm) => {
+export const Form = ({ setIsRegistered }: IForm) => {
   // Checking that file is valid for form validation
   const [isFileValid, setIsFileValid] = useState(false);
   // Token for registration
@@ -51,8 +51,8 @@ export const Form = ({ setIsRegistred }: IForm) => {
 
     const res = await signUp(token, form);
     if (res.success) {
-      // Set isRegistred to true to display that user is signed up
-      setIsRegistred(true);
+      // Set isRegistered to true to display that user is signed up
+      setIsRegistered(true);
 
       // Set isLoading to false to remove spinner
       setIsLoading(false);
